@@ -144,7 +144,7 @@ function col_exists_in_db_tbl($table_name, $col_name){ // Checks if a column exi
 }
 
 function add_new_user_to_database(){
-	$add_error = false; // Indicates an error occurred while adding a new user to the database
+	$add_user_error_flag = false; // Indicates an error occurred while adding a new user to the database
 	$safe_post_fields_arr = get_safe_post_fields();
 	$name = $safe_post_fields_arr['name'];
 	$email = $safe_post_fields_arr['email'];
@@ -189,14 +189,14 @@ function add_new_user_to_database(){
 				$id = $_SESSION['id']; // Assigns the id to $id variable
 			}
 			else{
-				$add_error = true;
+				$add_user_error_flag = true;
 			}
 		}
 		else{
-			$add_error = true;
+			$add_user_error_flag = true;
 		}
 	}
-	if($add_error === false){
+	if($add_user_error_flag === false){
 		set_message("You are registered successfully!"); // Sets a registration message
 	}		
 	else{
