@@ -1,0 +1,125 @@
+body {
+  background: rgb(218, 241, 238);
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.btn {
+  padding: 5px 15px 5px 15px;
+  margin: 10px 15px;
+  display: inline-block;
+  width: auto;
+  font-size: 18pt;
+  font-family: "Helvetica", "Arial", san-serif;
+  text-align: center;
+  text-decoration: none;
+  appearance: none;
+  background-color: rgb(198, 223, 210);
+  color: rgb(102, 102, 102) !important;
+  cursor: pointer;
+  border:rgb(153, 153, 153) 1px solid;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.check-box {
+  margin: 5px 5px 5px 5%;
+  width: 35px;
+  height: 35px;
+}
+
+div.centered {
+  margin-top: 50px;
+  font-family: "Times New Roman", "Helvetica", san-serif;
+  text-align: center;
+}
+
+div.greeting {
+  padding: 50px;
+  font-size: 16pt;
+}
+
+div.reg-auth-form {
+  margin: 50px;
+  width: 85%;
+  padding: 20px 20px 20px 50px;
+  background-color: #96b8ac;
+  border: #b1b1b1 2px outset;
+  border-radius: 10px 10px 10px 10px;  
+}
+
+.message-item {
+  font-size: 16pt;
+  font-family: "Times New Roman", "Helvetica", san-serif;
+  text-align: left;
+}
+
+.message-title {
+  font-size: 18pt;
+  font-weight: bold;
+  font-family: "Times New Roman", "Helvetica", san-serif;
+  text-decoration: underline;
+}
+
+ol.rules-list {
+  font-size: 18pt;
+  text-align: left;
+}
+
+.rules-title {
+  font-size: 20pt;
+  font-weight: bold;
+  text-align: left;
+  text-decoration: underline;
+}
+
+p.al-left {
+  text-align: left;
+}
+
+p.rules {
+  margin-bottom: 5px;
+  font-size: 18pt;
+  text-align: left;
+}
+
+.reg-auth-inpt {
+  margin: 5px;
+  width: 90%;
+  height: 30px;
+  padding: 5px;
+  font-size: 18pt;
+  background-color: rgb(191, 218, 194);
+  border: rgb(153, 153, 153) 1px solid;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.reg-auth-inpt-slct {
+  margin: 5px;
+  width: 91%;
+  height: 40px;
+  padding: 2px 10px;
+  font-size: 18pt;
+  background-color: rgb(191, 218, 194);
+  border: rgb(153, 153, 153) 1px solid;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.sz-14-pt {
+  font-size: 16pt;
+}
+
+.sz-16-pt {
+  font-size: 16pt;
+}
+
+.sz-18-pt {
+  font-size: 18pt;
+}
+
+.terms {
+  font-style: italic;
+  font-size: 18pt;
+  font-family: "Helvetica", "Arial", san-serif;
+}
