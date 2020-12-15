@@ -1,7 +1,7 @@
 'use strict'
 // Checks the validity of registration fields.
 //	Returns true if all fields are valid, otherwise
-//	 sets an error array and returns false.
+//	 returns false.
 function validate_reg_form() {
     let registration_fields_valid_flag = true;
     // Save fields values from a form to letiables
