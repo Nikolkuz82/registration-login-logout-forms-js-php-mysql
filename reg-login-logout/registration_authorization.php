@@ -25,6 +25,7 @@ if (user_authorized()){	// If user is logged in then redirect
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <title><?=$GLOBALS['config']['title']?> — Registration - Authorization</title>
         <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <script type="text/javascript" src="../inclusions/validator.js"></script>
     </head>
 
     <body>

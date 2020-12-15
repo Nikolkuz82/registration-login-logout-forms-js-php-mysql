@@ -21,8 +21,7 @@
             <li>To register, you must agree to the terms.</li>
 		</ol>
 	</p>
-
-  <form action="handler.php" method="post">
+  <form name="reg_form" action="handler.php" method="post">
     <p>
         <input class="reg-auth-inpt" name="email" type="email" placeholder="* E-mail" <?= form_dynamic_html_options('user_reg_form_values_arr', 'email'); ?>>
     <p>
@@ -73,12 +72,12 @@
         </select>
     </p>
     <p class="al-left">
-        <input class="check-box" name="terms_agree" type="checkbox">
+        <input class="check-box" name="terms_agree" id="terms_checkbox" type="checkbox">
             <span class="terms"> Agree with terms and conditions</span>
         </input>
     </p>
     <p>
-        <button class="btn" name="btn_try_reg" type="submit">Register</button>
+        <button class="btn" name="btn_try_reg" type="submit" onclick="validate_reg_form();">Register</button>
         <button class="btn" name="btn_rfrsh_pg" type="submit">Refresh page</button>
     </p>
   </form>
