@@ -23,27 +23,27 @@
 	</p>
   <form name="reg_form" action="handler.php" method="post">
     <p>
-        <input class="reg-auth-inpt" name="email" type="email" placeholder="* E-mail" <?= form_dynamic_html_options('user_reg_form_values_arr', 'email'); ?>>
+        <input class="reg-auth-inpt" name="email" type="email" placeholder="* E-mail" <?php form_dynamic_html_options('user_reg_form_values_arr', 'email'); ?>>
     <p>
     <p>
-        <input class="reg-auth-inpt" name="login" type="text" placeholder="* Login" <?= form_dynamic_html_options('user_reg_form_values_arr', 'login'); ?>>
+        <input class="reg-auth-inpt" name="login" type="text" placeholder="* Login" <?php form_dynamic_html_options('user_reg_form_values_arr', 'login'); ?>>
     </p>
     <p>
-        <input class="reg-auth-inpt" name="name" type="text" placeholder="* Real name" <?= form_dynamic_html_options('user_reg_form_values_arr', 'name'); ?>>
+        <input class="reg-auth-inpt" name="name" type="text" placeholder="* Real name" <?php form_dynamic_html_options('user_reg_form_values_arr', 'name'); ?>>
     </p>
     <p>
-        <input class="reg-auth-inpt" name="password" type="password" placeholder="* Password" <?= $border_style = set_border_style('password');
+        <input class="reg-auth-inpt" name="password" type="password" placeholder="* Password" <?php $border_style = set_border_style('password');
                                                                                                     echo $border_style ?>>
     </p>
     <p>
-        <input class="reg-auth-inpt" name="password_2" type="password" placeholder="* Confirm password" <?= $border_style = set_border_style('password_2');
+        <input class="reg-auth-inpt" name="password_2" type="password" placeholder="* Confirm password" <?php $border_style = set_border_style('password_2');
                                                                                                             echo $border_style ?>>
     </p>
     <p>
-         <input class="reg-auth-inpt" name="birth_date" type="date" placeholder="Birth Date" <?= form_dynamic_html_options('user_reg_form_values_arr', 'birth_date'); ?>>
+         <input class="reg-auth-inpt" name="birth_date" type="date" placeholder="Birth Date" <?php form_dynamic_html_options('user_reg_form_values_arr', 'birth_date'); ?>>
     </p>
     <p>
-        <select class="reg-auth-inpt-slct" name="country" <?= $border_style = set_border_style('country');
+        <select class="reg-auth-inpt-slct" name="country" <?php $border_style = set_border_style('country');
                                                                 echo $border_style ?>>  
 
 <?php
